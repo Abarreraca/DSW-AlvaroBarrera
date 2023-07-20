@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Selectores CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 style="color:white;text-align: center;">Tipos de Selectores CSS</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Tema seleccionado</a></li>
+      <li><a href="#">Mockup</a></li>
+      <li><a href="#">Acerca de</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div class="selector-info">
+      <h2>Selectores de tipo</h2>
+      <p>Aplican estilos a todos los elementos de un tipo específico.</p>
+      <code>h1 { font-size: 28px; }</code>
+      <code>p { line-height: 1.6; }</code>
+      <code>a { color: #007bff; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de clase</h2>
+      <p>Permiten aplicar estilos a elementos con una clase específica.</p>
+      <code>.destacado { background-color: #ffeeba; padding: 10px; }</code>
+      <code>.etiqueta { font-size: 12px; color: #777; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de ID</h2>
+      <p>Permiten aplicar estilos a elementos con un ID específico.</p>
+      <code>#encabezado { background-color: #333; color: #fff; padding: 20px; }</code>
+      <code>#navegacion { background-color: #f8f9fa; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de descendencia</h2>
+      <p>Se utilizan para aplicar estilos a elementos anidados dentro de otros elementos.</p>
+      <code>ul li a { text-decoration: none; }</code>
+      <code>.entrada .fecha { font-style: italic; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de atributo</h2>
+      <p>Permiten aplicar estilos a elementos que tienen un atributo específico.</p>
+      <code>[target="_blank"] { text-decoration: underline; }</code>
+      <code>input[type="text"] { border: 1px solid #ccc; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de grupo</h2>
+      <p>Te permiten aplicar un conjunto de estilos a varios selectores al mismo tiempo.</p>
+      <code>h2, h3, h4 { color: #555; }</code>
+      <code>.experiencia, .educacion, .habilidades { margin-bottom: 20px; }</code>
+    </div>
+
+    <div class="selector-info">
+      <h2>Selectores de pseudo-clase y pseudo-elementos</h2>
+      <p>Aplican estilos en estados específicos de elementos.</p>
+      <code>a:hover { color: #ff4500; }</code>
+      <code>li::before { content: "➜ "; }</code>
+    </div>
+  </main>
+
+  <nav>
+    
+      <h1 style="color:white;text-align: center;">Mockup</h1>
+  </nav>
+
+  <div>
+    <img src="New Wireframe 1.png" height="900px" width="900px" alt="">
+  </div>
+
+
+
+  <footer>
+    <p>&copy; 2023 - Mi Blog</p>
+    <p>Última fecha de actualización: 18 de julio de 2023</p>
+  </footer>
+</body>
+</html>
